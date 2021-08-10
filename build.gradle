@@ -13,6 +13,16 @@ buildscript {
     }
 }
 
+
+//가이드에서는 여기에 maven url 추가하라고 되어있는데... 안되서 setting.gradle 에 추가
+//allprojects {
+//    repositories {
+//        google()
+//        mavenCentral()
+//        maven { url 'https://devrepo.kakao.com/nexus/content/groups/public/'}
+//    }
+//}
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
